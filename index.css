@@ -1,0 +1,41 @@
+body{
+    background: #daffb3;
+    text-align: center;
+    
+}
+
+img{
+   width: 100%;
+   margin: auto;
+}
+
+nav{
+    background-color: black;
+    padding: 5px;
+    margin: 0; 
+}
+
+nav ul{
+    position: sticky;
+    text-align: center;
+    border: none;
+}
+
+nav li{
+    display: inline; 
+    padding: 30px;
+}
+
+nav li a:link, nav li a:visited {
+font-family: monospace;
+font-size: 20px;
+color:  white;
+text-decoration:none;
+border: 10 px solid black;
+}
+
+nav ul li a:hover{
+    color: #ff66ff;
+    border-bottom: 3px solid;
+}
+
